@@ -8,7 +8,6 @@
 </head>
 <body data-bs-theme="dark" >
     
-    
     <header class="p-3 mb-3 border-bottom" id="overview">
         <div class="container">
             <a href="#overview" 
@@ -30,8 +29,8 @@
               <li><a href="#contacts" class="nav-link px-2 link-body-emphasis">Contacts</a></li>
             </ul>
     
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" onsubmit="return redirectToSection(event)" role="search">
+              <input type="search" id="search-input"class="form-control" placeholder="Search..." aria-label="Search">
             </form>
     
             <div class="dropdown text-end">
@@ -223,7 +222,7 @@
             <!-- <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg> -->
              <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">PHP OOP MVC</h3>
+              <h3 id="php" class="fw-bold mb-0 fs-4 text-body-emphasis">PHP OOP MVC</h3>
               <p>PHP programming language with Object Oriented Programming using MVC method</p>
             </div>
           </div>
@@ -296,5 +295,7 @@
         </div>
     </footer>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript to handle redirection -->
+    <script src="./js/redirection.js"></script>
 </body>
 </html>
