@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body data-bs-theme="dark" >
     
@@ -73,11 +74,24 @@
         <div class="container">
             <h2 class="pb-2 border-bottom">Projects</h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
+            <div class="col" style="max-height: 420px;">
               <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <!-- Thumbnail Image -->
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">Php BlogSpot</text>
+                </svg>
+
+                <!-- Card Body with Text and Buttons -->
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+                  
+                  <!-- Progress Bar (Added here) -->
+                  <div class="progress mb-3" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -88,128 +102,8 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
     </section>
@@ -218,63 +112,60 @@
         <h2 class="pb-2 border-bottom" id="skills">Skills</h2>
     
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <!-- <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg> -->
+          <div class="col d-flex align-items-start card-custom-height">
+          
              <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
             <div>
               <h3 id="php" class="fw-bold mb-0 fs-4 text-body-emphasis">PHP OOP MVC</h3>
               <p>PHP programming language with Object Oriented Programming using MVC method</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+          <div class="col d-flex align-items-start card-custom-height">
+             <img src="./img/mysql-logo.svg" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+              <h3 id="mysql" class="fw-bold mb-0 fs-4 text-body-emphasis">Mysql Database</h3>
+              <p>PHP programming language with Object Oriented Programming using MVC method</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+          <div class="col d-flex align-items-start card-custom-height">
+             <img src="./img/html-logo.jpg" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+              <h3 id="html" class="fw-bold mb-0 fs-4 text-body-emphasis">HTML 5</h3>
+              <p>Using semantic tag in structuring tags</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+
+          <div class="col d-flex align-items-start card-custom-height">
+              <img src="./img/css-logo.png" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+              <div>
+                <h3 id="css" class="fw-bold mb-0 fs-4 text-body-emphasis">Css</h3>
+                <p>Responsive Styling Design</p>
+              </div>
+          </div>
+
+          <div class="col d-flex align-items-start card-custom-height">
+              <img src="./img/js-logo.png" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
             <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+              <h3 id="javascript" class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+              <p>Dom Manipulation</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
+          <div class="col d-flex align-items-start card-custom-height">
+            <img src="./img/bootstrap-logo.png" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+          <div>
+            <h3 id="bootstrap" class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap 5</h3>
+            <p>Dom Manipulation</p>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
+          <div class="col d-flex align-items-start card-custom-height">
+            <img src="./img/github-logo.jpg" alt="Mysql Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
+          <div>
+            <h3 id="github" class="fw-bold mb-0 fs-4 text-body-emphasis">Git and Github</h3>
+            <p>Dom Manipulation</p>
           </div>
-          <div class="col d-flex align-items-start">
-            <img src="./img/phpicon.png" alt="Php Icon" class="p-1" style="max-width: 50px;max-height: 50px;">
-            <div>
-              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
+        </div>
+       
+          
         </div>
     </section>
     <footer class="container" id="contacts">
